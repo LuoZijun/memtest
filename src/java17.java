@@ -5,6 +5,8 @@ class Java17{
             data[i] = i;
         }
         try{
+            println("Done.\n");
+            System.out.println("Done.\n");
             Thread.sleep(10000);
         }catch (InterruptedException e) {
             e.printStackTrace(); 

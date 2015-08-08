@@ -23,4 +23,5 @@ let (--) i j =
 (* val ( -- ) : int -> int -> int list = <fun> *)
 
 let data = 0 -- 100000000;;
+print_string "Done.\n";;
 
