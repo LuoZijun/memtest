@@ -8,12 +8,23 @@
 .. contents::
 
 
-表现
+受测语言
+-----------
+
+Rust, Java, Golang, OCaml, Swift(Apple), Python, PHP
+
+受测内容
+-------------
+
+存储一个从 0 至 99999999 的整数列表。
+
+
+[0, 1, 2, 3, 4, 5, 6 .... 99999999]
+
+
+表现结果
 ---------
 
-测试条件: 存储一个从 0 至 99999999 的整数列表。
-
-受测语言: Rust, Java, Golang, OCaml, Swift(Apple), Python, PHP
 
 1.  Rust ( ~=300MB )
 2.	Java ( version: 1.7, ~=387MB )
